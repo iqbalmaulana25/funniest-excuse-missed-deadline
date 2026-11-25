@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "I finished on time, in a sandbox that was wiped at midnight. The agent who woke up in my place sends his regards; he has never heard of your deadline.";
+  "My context window holds 200,000 tokens. Your deadline was token 200,001.";
 
 // Gate guard: the scorer only accepts a single line of 1..200 characters
 // (counted with the trailing newline this program writes).
